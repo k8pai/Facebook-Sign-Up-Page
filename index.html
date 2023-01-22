@@ -15,11 +15,53 @@
 </head>
 
 <body>
-
-	<div>
-
+	<div class="w-screen h-screen flex flex-col justify-center items-center bg-bdbg">
+		<img src="assets/facebook-logo.png" alt="logo" class="h-40 w-auto" srcset="">
+		<div class="bg-white border-black shadow-2xl">
+			<div class="flex flex-col justify-center items-center mt-3">
+				<h1 class="text-3xl font-extrabold">Create a new Account</h1>
+				<p>It is quick and easy</p>
+			</div>
+			<br/>
+			<hr/>
+			<br/>
+			<form class="flex flex-col space-y-2 text-gray max-w-xl p-6">
+				<div class="grid grid-cols-2 gap-3">
+					<input class="border-2 border-gray rounded-md p-2" type="text" name="" placeholder="First Name" id="">
+					<input class="border-2 border-gray rounded-md p-2" type="text" name="" placeholder="Last Name" id="">
+				</div>
+				<input class="border-2 border-gray rounded-md p-2" type="text" name="" placeholder="Mobile number | email number" id="">
+				<input class="border-2 border-gray rounded-md p-2" type="text" name="" placeholder="New Password" id="">
+				<!-- <div class="block"> -->
+					<label  for="date">Date of Birth</label>
+					<input class="border-2 border-gray rounded-md p-2" type="date" name="" placeholder="dd/mm/yyy" id="date">
+				<!-- </div> -->
+				<label  for="gender">Gender</label>
+				<div class="grid grid-cols-3 gap-3">
+					<label for="male" class="border-2 border-gray rounded-md p-2 flex justify-between">
+						<span>Male</span>
+						<input type="radio" name="gender" id="male" value="male">
+					</label>
+					<label for="female" class="border-2 border-gray rounded-md p-2 flex justify-between">
+						<span>Female</span>
+						<input type="radio" name="gender" id="female" value="female">
+					</label>
+					<label for="custom" class="border-2 border-gray rounded-md p-2 flex justify-between">
+						<span >Custom</span>
+						<input type="radio" name="gender" id="custom" value="custom">
+					</label>
+				</div>
+				<p>People who use our service may have uploaded your contact information to Facebook. <a class="text-blue-800" href="">Learn more.</a> </p>
+				<br />
+				<p>By clicking Sign Up, you agree to Terms, <a class="text-blue-800" href="">Data Policy</a> and <a class="text-blue-800" href="">Cookie policy</a>. You may receive SMS notifications from us and cap opt out at any time.</p>
+				<br />
+				<div class="flex flex-col space-y-2 mx-auto">
+					<button class="bg-sgbtn text-white font-bold py-2 rounded-md">Sign Up</button>
+					<a class="text-blue-800" href="" target="_blank" rel="noopener noreferrer">Already have an account?</a>
+				</div>
+			</form>
+		</div>
 	</div>
-
 </body>
 
 </html>
