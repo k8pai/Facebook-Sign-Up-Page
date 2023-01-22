@@ -1,0 +1,14 @@
+{
+  "name": "facebook-sign-up-page",
+  "version": "1.0.0",
+  "description": "Body Background Color : #f0f8fb Sign up Button Color : #00a400 , Hover state : #1c930f Links Color : text-blue-800 ( Tailwind Class ) Text-color-combo : grey and black",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
